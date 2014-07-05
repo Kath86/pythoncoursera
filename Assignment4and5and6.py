@@ -68,3 +68,10 @@ secondpos = text.find('5')
 number = text[firstpos:secondpos+1]
 num = float(number)
 print num
+
+## another and shorter code for this would be
+
+text = "X-DSPAM-Confidence:    0.8475";
+numpos = text.find('0')
+number = float(text[numpos:])
+print number
